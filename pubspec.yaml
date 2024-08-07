@@ -1,0 +1,66 @@
+name: omni_guard_ai_web
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.23.0+1
+  provider: ^6.0.0 
+  file_picker: ^5.3.0
+  image_picker: ^0.8.7+5  # 使用最新稳定版本
+  path_provider: ^2.0.13
+  file_saver: ^0.2.13
+  path: ^1.8.2
+  flutter_html: ^3.0.0-beta.2
+  http: ^0.13.3
+  url_launcher: ^6.0.12 # 或者是最新版本
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.2
+  syncfusion_flutter_charts: ^26.2.7
+  flutter_markdown: ^0.7.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/page/
+    - assets/icons/
+    - assets/icons/logo/
+    - assets/china_map.geojson
+    - assets/cases.md
+    - assets/case2.md
+    - assets/case3.md
+    - assets/case4.md
+    - assets/document.md
+    - assets/document2.md
+    - assets/document3.md
+    - assets/document4.md
+  fonts:
+  - family: MiSans
+    fonts:
+      - asset: assets/fonts/MiSans-Regular.ttf
+      - asset: assets/fonts/MiSans-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/MiSans-DemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/MiSans-ExtraLight.ttf
+        weight: 200
+      - asset: assets/fonts/MiSans-Heavy.ttf
+        weight: 900
+      - asset: assets/fonts/MiSans-Light.ttf
+        weight: 300
+      - asset: assets/fonts/MiSans-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/MiSans-Thin.ttf
+        weight: 100
